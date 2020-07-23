@@ -531,3 +531,218 @@ footer .footer-top ul>li>a:hover {
 }
 
 /* Media Queries */
+
+/* JOB DESCRIPTION START */
+@media (min-width: 1200px){
+    .banner-wrapper .banner-sec{ 
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+.banner-wrapper{
+    background: #F4F4F4;
+}
+
+.banner-sec h3{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 44px;
+    color: #333333;
+    line-height: 1.2;
+    margin-bottom: .3em;
+}
+.banner-sec h3 span{
+    font-size: 44px;
+    font-weight: 300;
+}
+.about-role-sec{
+    margin-top:3em;
+}
+.about-role-sec .row > div:nth-child(2){
+    margin: 0px !important;
+}
+.about-role-sec p{
+    color: #7A7A7A;
+}
+.price-section{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1em;
+    margin: 2em 0em;
+    align-items: center;
+}
+.price-section h6 span{
+    color:#FF7E02;
+}
+.price-section p{
+    margin-bottom: 0.5rem;
+}
+.about-role-sidebar {
+    margin-bottom: 3em;
+}
+.about-role-sidebar div{
+    border: 2px solid #f2ecec;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 12px 5px;
+}
+.about-role-sidebar span{
+    margin: 0em 1em;
+    color:#AFAFAF;
+}
+.about-role-sidebar span img{
+    width: 1.4em;
+}
+.about-role-sidebar .sidebar-head{
+    background: #FF7E02;
+}
+.about-role-sidebar .sidebar-head span{
+    color: #fff;
+}
+.url-textbox{
+    font-size: 12px;
+    color: #474747;
+    white-space: nowrap;
+}
+.job-url-wrapper div{
+    border: 2px solid #f2ecec;
+    border-radius: 5px;
+}
+.job-url{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+.job-url .url-btn{
+    color: #fff;
+    background: #FF7E02;
+    padding: 12px 2em;
+    border-radius: 5px;
+}
+.url-btn a{
+    color:#fff;
+    text-decoratiomn: none;
+}
+.tech-capability{
+    margin: 2em 0em;
+}
+.tech-capability h3{
+    text-decoration: underline;
+}
+.skills-btn_wrapper{
+    margin: 2em 0em;
+}
+.skills-btn_wrapper a{
+    color: #000;
+    border: 2px solid #FF7E02;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 9px;
+    margin: 0 4px;
+    line-height: 4.4;
+    text-decoration: none;
+}
+.cirle-box{
+    color: #FF7E02;
+}
+.fade-color{
+    color: #8F8F8F;
+}
+.tech-capability .row > div:nth-child(2){
+    margin: 0px !important;
+}
+.tech-capability .row > div:nth-child(2) h6{
+    margin-bottom: 2em;
+}
+.job-desc{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    color: #7A7A7A;
+}
+.job-role ul{
+    padding: 20px;
+}
+.job-role li{
+    color: #7A7A7A;
+}
+.job-role td{
+    padding: 8px;
+}
+.job-role td:first-child{
+    padding-left:0px;
+    color: #7A7A7A;
+}
+.job-apply-btn{
+    display: grid;
+    grid-template-columns: 15% 15%;
+    grid-gap: 1em;
+    margin: 2em 0em;
+}
+.job-apply-btn div{
+    padding: 8px 10px;
+    background: #FF7E02;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.job-apply-btn div:nth-child(2){
+    background: #fff;
+    color: #FF7E02;
+    border: 1px solid #FF7E02;
+}
+.education-wrapper{
+    margin-top: 3em;
+}
+.share-btn{
+    writing-mode: vertical-rl;
+}
+/* media query for job description start*/
+
+@media(min-width: 1200px){
+    .banner-wrapper .banner-sec h3{
+        max-width: 530px;
+    }
+    .banner-wrapper .banner-sec p{
+        max-width: 450px;
+    }
+    .banner-wrapper .about-role-sec p{
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 767px){
+    .banner-wrapper .banner-sec h3{
+        margin: 1em 10px 1em 10px;
+        font-size: 30px;
+    }
+    .banner-wrapper .banner-sec p{
+        margin: 0em 10px 0em 10px;
+    }
+    .banner-wrapper .banner-sec h3 span{
+        margin-top: 0px;
+        display: inline-block;
+    }
+    .tech-capability{
+        margin-top: 3em;
+    }
+    .skills-btn_wrapper div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 8px;
+        margin-bottom: 12px;
+    }
+    .skills-btn_wrapper a{
+        padding: 0px 9px;
+    }
+    .tech-capability .row > div:nth-child(2) h6{
+        margin: 1em 0em;
+    }
+    .job-apply-btn{
+        grid-template-columns: auto;
+        margin: 2em 4px;
+    }
+}
+
+
+/* media query for job description end*/
+  /* JOB DESCRIPTION END */
