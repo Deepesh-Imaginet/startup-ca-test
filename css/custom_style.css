@@ -879,6 +879,44 @@ footer .footer-top ul>li>a:hover {
 .modal-content>*:last-child {
     margin-bottom: 0;
 }
+.job-role .modal{
+    height: 115%;
+}
+ 
+.job-role .form-control::placeholder{
+    color: #B3B3B3;
+}
+.job-role .form-control{
+    border: 1px solid #CCCCCC;
+    padding: 1.375rem .75rem;
+}
+.job-role .form-group label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.job-role .submit-resume{
+    width: 100%;
+    background: #FF7E02;
+    padding: 12px 0px;
+    border: 1px solid #FF7E02;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 1em;
+
+}
+.terms{
+    text-align: center;
+    margin-top: 1em;
+}
+.terms a{
+    font-size: 14px;
+    color: #333333;
+}
+.terms span{
+    color: #FF7E02;
+}
 
 /* Pop up section */
 /* media query for job description start*/
@@ -935,6 +973,11 @@ footer .footer-top ul>li>a:hover {
     .job-apply-btn {
         grid-template-columns: auto;
         margin: 2em 4px;
+    }
+    .modal-wrapper{
+        left: 0;
+        width: 100%;
+        margin-left: 0px;
     }
 }
 
