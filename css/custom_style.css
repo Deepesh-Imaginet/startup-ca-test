@@ -739,6 +739,7 @@ footer .footer-top ul>li>a:hover {
     border-radius: 5px;
     color: #fff;
     text-align: center;
+    cursor: pointer;
 }
 
 .job-apply-btn div:nth-child(2) {
