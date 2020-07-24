@@ -835,15 +835,18 @@ footer .footer-top ul>li>a:hover {
 }
 
 .modal-header,
-.modal-content {
-    padding: 1em;
+.content {
+    padding: 2em;
+}
+
+.content {
+    padding-top: 0;
 }
 
 .modal-header {
     position: relative;
     background-color: #fff;
-    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
-    border-bottom: 1px solid #e8e8e8;
+    border: 0;
 }
 
 .modal-close {
