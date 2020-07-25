@@ -331,7 +331,7 @@ span.divide.long-arrow-right {
 /* Quote Section */
 
 .quote-sec {
-    background: url(../images/career/Group\ 1238@2x.png);
+    background: url(../assets/images/career/Group\ 1238@2x.png);
     padding: 5em 0;
     margin-top: 1em;
     background-position: center;
@@ -1452,7 +1452,7 @@ footer .footer-top ul>li>a:hover {
 
 .url-btn a {
     color: #fff;
-    text-decoratiomn: none;
+    text-decoration: none;
 }
 
 .tech-capability {
@@ -1837,6 +1837,10 @@ footer .footer-top ul>li>a:hover {
 
 .ca-programme {
     margin: 6em 8em;
+}
+
+.ca-programme {
+    margin: 6em 8em 12em 8em;
     text-align: center;
 }
 
@@ -1882,4 +1886,169 @@ footer .footer-top ul>li>a:hover {
     font-weight: 700;
     text-decoration: none;
     border-radius: 2px;
+}
+
+
+
+.benefits .banner-sec h3 {
+    display: block;
+    width: 100%;
+}
+
+.presenter {
+    box-shadow: 0px 3px 20px #FF6000A3;
+    border: 4px solid #FF7E02;
+    opacity: 1;
+    border-radius: 50% 50%;
+    width: 10em !important;
+    margin: 0em 3em;
+}
+
+.p-small {
+    margin-left: 0em;
+}
+
+.p-large {
+    width: 16em !important;
+}
+
+.p-2-row .p-large {
+    margin: 1em 2em;
+}
+
+.four-img-section {
+    margin-bottom: 14em;
+}
+
+.p-2-row {
+    position: relative;
+}
+
+.p-2-1 {
+    position: absolute;
+    top: -44px;
+    left: 3%;
+}
+
+.p-2-2 {
+    position: absolute;
+    right: 8%;
+}
+
+.sponser .img-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.sponser .img-sec img:last-child {
+    padding-top: 7em;
+}
+
+.sponser-content {
+    padding: 0em 7em 0em 3em;
+}
+
+.partner {
+    padding: 5em 0;
+}
+
+.partner p {
+    margin: 2em auto !important;
+    font-size: 18px !important;
+}
+
+.partner .more {
+    border: 2px solid #FF7E02;
+    border-radius: 2px;
+    padding: 8px 36px;
+    font-size: 14px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #FF7E02;
+    background: #fff;
+    font-weight: 500;
+}
+
+.benefits-left-section,
+.benefits-right-section {
+    text-align: center;
+}
+
+.benefits-right-section {
+    padding-top: 6em;
+}
+
+.benefits-left-section-wrapper:hover .tickets {
+    color: #FF7E02;
+    padding: 10px 65px;
+    background: #fff;
+}
+
+.benefits-left-section-wrapper:hover {
+    background: #FF7E02;
+    color: #fff;
+
+}
+
+.benefits h2 {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.benefits-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 6em 6em;
+    grid-gap: 5em;
+}
+
+.benefits-wrapper img {
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.review h3 {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.review {
+    text-align: center;
+}
+
+.review-wrapper-inner {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-gap: 3em;
+}
+
+.review-wrapper {
+    background: #EDEDED;
+    border-radius: 33px;
+    padding: 3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.review-wrapper-inner div:last-child {
+    margin: 3em 5em 3em 0em;
+    text-align: left;
+}
+
+.review-wrapper-inner .clr {
+    color: #FF7E02;
 }
