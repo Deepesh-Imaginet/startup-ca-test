@@ -1931,6 +1931,7 @@ footer .footer-top ul>li>a:hover {
 .sec-2-bus .flex-container img {
     border-radius: 9px;
     margin: 0px 6px;
+    width: 220px;
 }
 .sec-3-bus.container {
     padding: 2em 0;
@@ -2556,9 +2557,9 @@ footer .footer-top ul>li>a:hover {
     padding: 3em;
 }
 
-img {
+/*img {
     max-width: 100%;
-}
+}*/
 
 .review-wrapper-inner div:last-child {
     margin: 3em 5em 3em 0em;
