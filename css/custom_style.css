@@ -166,7 +166,6 @@ span.divide.long-arrow-right {
 }
 
 .flex-container img {
-    height: 240px;
     margin: 0 3px;
 }
 
@@ -190,7 +189,15 @@ span.divide.long-arrow-right {
 }
 
 .explore-jobs-inner {
-    margin-top: 2.5em;
+    margin-top: 1.5em;
+}
+
+.flex-container .owl-dots {
+    display: none;
+}
+
+.flex-container .owl-nav {
+    float: right;
 }
 
 .explore-jobs-inner>h4 {
@@ -660,6 +667,275 @@ textarea.comment-text {
 
 /* Start Up Resources End */
 
+/*Mentorship Start */
+
+/* Banner  */
+.mentor-banner-sec p {
+    color: #343434;
+    font-size: 16px;
+    max-width: 400px;
+    margin-bottom: 2em;
+}
+
+.mentor-banner-sec img {
+    width: 100%;
+}
+
+.mentor-banner-sec h2 {
+    color: #343434;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: .5em;
+}
+
+.mentor-banner-sec a.banner-btn {
+    border: 2px solid #FF7E02;
+    background: transparent;
+    color: #FF7E02;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.mentor-banner-sec a.banner-btn:hover {
+    background: #FF7E02;
+    color: #fff
+}
+
+/* Banner  */
+
+/* Mentor Category */
+.mentors-category>p {
+    color: #343434;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.mentors-category>h3 {
+    color: #343434;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.mentors-category {
+    padding: 4em 0;
+}
+
+.category-inner>div>h4 {
+    color: #343434;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.category-inner>div>img {
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+.category-inner>div {
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    padding: 3.5em 0;
+}
+
+.category-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5em;
+}
+
+.mentor-filter .has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.mentor-filter .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.6rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.mentor-filter .form-group.sort-sec>span {
+    margin: auto;
+    border: 1px solid #ced4da;
+    border-radius: .25rem 0 0 .25rem;
+    padding: .375rem 2.5rem .375rem 1.2rem;
+    font-size: 13px;
+    height: calc(1.5em + 1.4rem + 2px);
+    color: #7E7E7E;
+    white-space: nowrap;
+    display: grid;
+    align-items: center;
+}
+
+form.mentor-filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+    padding: 2.5em 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.mentors-filter h2>span {
+    color: #FF8000;
+}
+
+.mentors-filter h2 {
+    color: #343434;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.mentor-listing-item .top-sec>div {
+    margin: auto 0;
+}
+
+.mentor-listing-item .top-sec span {
+    color: #4A4A4A;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.mentor-listing-item .top-sec span>img {
+    width: 15px;
+}
+
+.mentor-listing-item .top-sec p {
+    margin: 0;
+    font-size: 10px;
+    color: #4A4A4A;
+}
+
+.mentor-listing-item .top-sec h4 {
+    font-size: 21px;
+    color: #343434;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mentor-listing-item .top-sec>div>img {
+    width: 75px;
+}
+
+.bottom-sec {
+    padding: .8em;
+}
+
+.mentor-listing-item {
+    border: 2px solid #707070;
+    border-radius: 9px;
+}
+
+.bottom-sec>p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #5D5D5D;
+    margin: 0;
+}
+
+a.mentor-more {
+    border: 2px solid #FF7E02;
+    background: transparent;
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: 500;
+    padding: 10px 36px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a.mentor-more:hover {
+    background: #FF7E02;
+    color: #fff;
+}
+
+.mentor-listing {
+    margin-bottom: 4em;
+}
+
+.network-sec {
+    text-align: center;
+    background: url(../assets/images/mentorship/network-sec.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 285px;
+}
+
+.vetted-sec p {
+    color: #414141;
+    font-size: 15px;
+    margin: 20px 0 35px;
+}
+
+.vetted-sec h4 {
+    font-size: 45px;
+    color: #414141;
+}
+
+.vetted-sec img {
+    width: 100%;
+}
+
+.vetted-sec {
+    margin: 3em 0;
+}
+
+.network-sec>p {
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 1em;
+}
+
+.network-sec>h3 {
+    color: #FFFFFF;
+    font-size: 45px;
+    padding-top: 1.5em;
+}
+
+.mentor-listing-item .top-sec {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: .5em;
+    padding: 1.5em;
+    border-bottom: 2px solid #707070;
+}
+
+.mentor-listing-item {
+    display: grid;
+    border: 2px solid #707070;
+    border-radius: 9px;
+    margin: 2em 0;
+}
+
+.form-group.sort-sec select.form-control {
+    border-radius: 0 .25rem .25rem 0;
+    border-left: 0;
+}
+
+.form-group.sort-sec {
+    display: flex;
+}
+
+.mentor-filter .form-control {
+    padding: .375rem 1.2rem;
+    font-size: 13px;
+    height: calc(1.5em + 1.4rem + 2px);
+}
+
+/* Mentor Category */
+
+/*Mentorship End */
+
 /* Footer  */
 footer .footer-bottom ul,
 footer .footer-bottom ul li {
@@ -719,6 +995,10 @@ footer .footer-top ul>li>a:hover {
     font-size: 18px;
     margin: 15px 0px 25px;
     font-weight: 600;
+}
+
+.vetted-sec>div>div {
+    margin: auto 0;
 }
 
 /* Footer  */
@@ -795,6 +1075,33 @@ footer .footer-top ul>li>a:hover {
         font-size: 24px;
     }
 
+    .category-inner {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .vetted-sec h4 {
+        font-size: 32px;
+    }
+
+    .vetted-sec p {
+        font-size: 12px;
+    }
+
+    .mentors-filter h2 {
+        font-size: 36px;
+    }
+
+    .mentors-category>h3 {
+        font-size: 28px;
+    }
+
+    .mentor-banner-sec h2 {
+        font-size: 22px;
+    }
+
+    .mentor-banner-sec p {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -986,6 +1293,51 @@ footer .footer-top ul>li>a:hover {
 
     .inner-right>P {
         font-size: 11px;
+    }
+
+    .category-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category-inner>div>h4 {
+        font-size: 14px;
+    }
+
+    .mentors-filter h2 {
+        font-size: 24px;
+    }
+
+    form.mentor-filter {
+        grid-template-columns: 1fr;
+        grid-gap: 0.5em;
+    }
+
+    .network-sec>h3,
+    .mentors-category>h3 {
+        font-size: 26px;
+    }
+
+    .vetted-sec p,
+    .mentor-banner-sec p {
+        font-size: 14px;
+    }
+
+    .mentor-banner-sec>div {
+        flex-direction: column-reverse;
+    }
+
+    .mentor-banner-sec {
+        padding-bottom: 4em;
+    }
+
+    .mentors-category>p,
+    .mentor-banner-sec h2 {
+        font-size: 16px;
+    }
+
+    .vetted-sec h4 {
+        font-size: 32px;
+        margin-top: 1em;
     }
 }
 
@@ -1422,16 +1774,19 @@ footer .footer-top ul>li>a:hover {
 /* JOB DESCRIPTION END */
 
 /* EVENT MAIN PAGE */
-.event-main .banner-sec h2{
+.event-main .banner-sec h2 {
     margin-bottom: 0.2em;
 }
-.event-main .banner-sec P{
+
+.event-main .banner-sec P {
     margin-bottom: 2rem;
 }
-.event-main .tickets{
+
+.event-main .tickets {
     box-shadow: 0px 10px 20px #E6710047;
 }
-.event-main .more{
+
+.event-main .more {
     border: 2px solid #FF7E02;
     border-radius: 2px;
     padding: 8px 36px;
@@ -1440,18 +1795,22 @@ footer .footer-top ul>li>a:hover {
     text-decoration: none;
     color: #FF7E02;
 }
+
 .help-inner {
     margin: 0em 3em;
 }
-.help-inner h5{
+
+.help-inner h5 {
     color: #FF7E02;
 }
-.help-inner p{
+
+.help-inner p {
     font-size: 12px;
     font-style: italic;
     color: #9A9A9A;
 }
-.startup-3-box{
+
+.startup-3-box {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -1459,51 +1818,63 @@ footer .footer-top ul>li>a:hover {
     border: 1px solid #C8C8C8;
     min-height: 13em;
 }
-.startup-3-box div{
+
+.startup-3-box div {
     text-align: center;
 }
-.startup-3-box h5{
+
+.startup-3-box h5 {
     margin: 1em;
 }
-.ca-programme h3{
+
+.ca-programme h3 {
     display: block;
     width: 100%;
     font-size: 50px;
-    margin-bottom: 1em;;
+    margin-bottom: 1em;
+    ;
 }
-.ca-programme{
+
+.ca-programme {
     margin: 6em 8em;
     text-align: center;
 }
-.ca-programme .row:last-child{
+
+.ca-programme .row:last-child {
     padding: 2em 0em;
 }
-.ca-3-box{
+
+.ca-3-box {
     text-align: center;
     padding: 4em 2em;
     border: 2px solid #E2E2E2;
     border-radius: 17px;
 }
-.ca-3-box .ca-box-content{
+
+.ca-3-box .ca-box-content {
     margin: 2em 0em 2em 0em;
 }
-.middle-box{
+
+.middle-box {
     position: absolute;
     width: 90%;
     top: 30%;
 }
-.ca-box-content{
+
+.ca-box-content {
     margin-bottom: 0.5rem;
 }
-.ca-box-content p:first-child{
+
+.ca-box-content p:first-child {
     font-weight: 500;
 }
-.ca-box-content p:last-child{
+
+.ca-box-content p:last-child {
     font-size: 10px;
     color: #343434;
 }
 
-.ca-programme a{
+.ca-programme a {
     font-size: 10px;
     border: 2px solid #FF7E02;
     padding: 8px 3em;
@@ -1512,5 +1883,3 @@ footer .footer-top ul>li>a:hover {
     text-decoration: none;
     border-radius: 2px;
 }
-
-    
