@@ -1138,9 +1138,10 @@ img {
 
 
 .incorporation-main .banner-sec h2{
-    font-size: 65px;
+    font-size: 49px;
     line-height: 1.2;
     margin-bottom: .2em;
+    text-transform: uppercase;
 }
 .incorporation-main .banner-sec p{
     margin-bottom: 2rem;
@@ -1352,7 +1353,7 @@ img {
     line-height: 1.5;
 }
 .incorporate-slider-content a{
-    
+
 }
 .incorporate-slider .row{
     padding: 3em 0em;
@@ -1395,3 +1396,56 @@ img {
 
 
 /* INCORPORATION PAGE END */
+
+/* INCORPORATION */
+
+.power-content> p:nth-child(3){
+    font-size: 12px;
+    color: #343434;
+    margin-bottom: 3em;
+}
+.incorporate-new-power .more{
+    border: 2px solid #FF7E02;
+    border-radius: 2px;
+    padding: 8px 36px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+.incorporate-new-power .power-content{
+    display: grid;
+    grid-template-rows: 1fr 90px 105px auto;
+    align-items: center;
+    justify-items: center;
+}
+.incorporate-new-power .row{
+    margin: 4em 2em 0em 2em;
+}
+.incorporate-new-power .power-content p{
+    margin-top: 0px;
+}
+.sec-5-mca h3{
+    text-align: center;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0px;
+    color: #343434;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: bold;
+}
+.incorporate-new-power {
+    margin-bottom: 7em;
+}
+.mca-accordion h3{
+    text-transform: unset;
+}
+@media (max-width: 767px){
+    .incorporate-new-power .power-content{
+        margin-bottom: 3em;
+    }
+    .incorporate-new-power{
+        margin-bottom: 0em;
+    }
+}
+/* INCORPORATION END */
